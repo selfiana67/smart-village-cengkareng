@@ -1,17 +1,32 @@
-# smart_village_fix
+# Smart Village Cengkareng - Location Based Service (LBS)
 
-A new Flutter project.
+Aplikasi mobile Smart Village berbasis Location Based Service (LBS) untuk pemetaan fasilitas kesehatan di Kecamatan Cengkareng, Jakarta Barat.
 
-## Getting Started
+## ✨ Fitur Utama
+- Menampilkan 6 Fasilitas Kesehatan terdekat (RSUD, Puskesmas, Klinik, Apotek)
+- Geofencing Radius 2 KM (Lingkaran Biru di Peta)
+- Filter Kategori: Rumah Sakit, Puskesmas, Klinik, Apotek
+- Search Fasilitas berdasarkan Nama
+- Peta Interaktif OpenStreetMap dengan 6 Pin Lokasi
+- Detail Fasilitas (Foto, Alamat, Telepon, Rating, Layanan)
+- Navigasi Langsung ke Google Maps
 
-This project is a starting point for a Flutter application.
+## 🛠️ Teknologi
+- Flutter 3.x & Dart
+- flutter_map 6.1.0 (OpenStreetMap)
+- geolocator 12.0.0 (GPS)
+- url_launcher 6.3.1 (Google Maps)
+- latlong2 0.9.1
 
-A few resources to get you started if this is your first Flutter project:
+## 📍 Data Fasilitas
+1. RSUD Cengkareng
+2. Puskesmas Cengkareng
+3. Klinik Medika Cengkareng
+4. Apotek Sehat Cengkareng
+5. RS Hermina Cengkareng
+6. Puskesmas Kalideres
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Cara Menjalankan
+```bash
+flutter pub get
+flutter run
